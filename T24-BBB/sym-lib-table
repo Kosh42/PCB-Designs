@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name T24-BBB)(type Legacy)(uri ${KIPRJMOD}/T24-BBB.lib)(options "")(descr ""))
+  (lib (name AM26C31CD)(type Legacy)(uri ${KIPRJMOD}/libraries/AM26C31CD.lib)(options "")(descr ""))
+  (lib (name AM26CD31PW)(type Legacy)(uri ${KIPRJMOD}/libraries/AM26CD31PW.lib)(options "")(descr ""))
+)

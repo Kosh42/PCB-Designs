@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 6019174D
+P 1600 3700
+F 0 "#PWR?" H 1600 3450 50  0001 C CNN
+F 1 "GND" H 1605 3527 50  0000 C CNN
+F 2 "" H 1600 3700 50  0001 C CNN
+F 3 "" H 1600 3700 50  0001 C CNN
+	1    1600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HCT245PW:SN74HCT245PW U2
+U 1 1 6018FF62
+P 2300 2900
+F 0 "U2" H 2300 3870 50  0000 C CNN
+F 1 "SN74HCT245PW" H 2300 3779 50  0000 C CNN
+F 2 "SOP65P640X120-20N" H 2300 2900 50  0001 L CNN
+F 3 "TSSOP-20 Texas Instruments" H 2300 2900 50  0001 L CNN
+F 4 "SN74HCT245PW" H 2300 2900 50  0001 L CNN "MP"
+F 5 "Octal Bus Transceivers With 3-State Outputs 20-TSSOP -40 to 85" H 2300 2900 50  0001 L CNN "Description"
+F 6 "Texas Instruments" H 2300 2900 50  0001 L CNN "MF"
+F 7 "Good" H 2300 2900 50  0001 L CNN "Availability"
+F 8 "0.30 USD" H 2300 2900 50  0001 L CNN "Price"
+	1    2300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60194085
+P 1600 2500
+F 0 "#PWR?" H 1600 2350 50  0001 C CNN
+F 1 "+5V" V 1615 2628 50  0000 L CNN
+F 2 "" H 1600 2500 50  0001 C CNN
+F 3 "" H 1600 2500 50  0001 C CNN
+	1    1600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60194782
+P 900 2200
+F 0 "#PWR?" H 900 2050 50  0001 C CNN
+F 1 "+5V" H 915 2373 50  0000 C CNN
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "" H 900 2200 50  0001 C CNN
+	1    900  2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6019516B
+P 900 2450
+F 0 "C1" H 992 2496 50  0000 L CNN
+F 1 "0.1uF" H 992 2405 50  0000 L CNN
+F 2 "" H 900 2450 50  0001 C CNN
+F 3 "~" H 900 2450 50  0001 C CNN
+	1    900  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2200 900  2300
+Wire Wire Line
+	1600 2300 900  2300
+Connection ~ 900  2300
+Wire Wire Line
+	900  2300 900  2350
+Wire Wire Line
+	900  2550 900  2700
+Wire Wire Line
+	900  2700 1600 2700
+$Comp
+L power:GND #PWR?
+U 1 1 60197A05
+P 900 2700
+F 0 "#PWR?" H 900 2450 50  0001 C CNN
+F 1 "GND" H 905 2527 50  0000 C CNN
+F 2 "" H 900 2700 50  0001 C CNN
+F 3 "" H 900 2700 50  0001 C CNN
+	1    900  2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  2700
+Text GLabel 1600 2800 0    50   Input ~ 0
+DATA1
+Text GLabel 1600 2900 0    50   Input ~ 0
+DATA2
+Text GLabel 1600 3000 0    50   Input ~ 0
+DATA3
+Text GLabel 1600 3100 0    50   Input ~ 0
+DATA4
+Text GLabel 1600 3200 0    50   Input ~ 0
+DATA5
+Text GLabel 1600 3300 0    50   Input ~ 0
+DATA6
+Text GLabel 1600 3400 0    50   Input ~ 0
+DATA7
+Text GLabel 1600 3500 0    50   Input ~ 0
+DATA8
+$Comp
+L Device:R_Small R4
+U 1 1 60199F32
+P 3100 2300
+F 0 "R4" V 2904 2300 50  0000 C CNN
+F 1 "150" V 2995 2300 50  0000 C CNN
+F 2 "" H 3100 2300 50  0001 C CNN
+F 3 "~" H 3100 2300 50  0001 C CNN
+	1    3100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019B6CF
+P 3100 2400
+F 0 "R?" V 2996 2400 50  0001 C CNN
+F 1 "150" V 2995 2400 50  0001 C CNN
+F 2 "" H 3100 2400 50  0001 C CNN
+F 3 "~" H 3100 2400 50  0001 C CNN
+	1    3100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019BE42
+P 3100 2500
+F 0 "R?" V 2996 2500 50  0001 C CNN
+F 1 "150" V 2995 2500 50  0001 C CNN
+F 2 "" H 3100 2500 50  0001 C CNN
+F 3 "~" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019BF21
+P 3100 2600
+F 0 "R?" V 2996 2600 50  0001 C CNN
+F 1 "150" V 2995 2600 50  0001 C CNN
+F 2 "" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019C078
+P 3100 2700
+F 0 "R?" V 2996 2700 50  0001 C CNN
+F 1 "150" V 2995 2700 50  0001 C CNN
+F 2 "" H 3100 2700 50  0001 C CNN
+F 3 "~" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019C1F5
+P 3100 2800
+F 0 "R?" V 2996 2800 50  0001 C CNN
+F 1 "150" V 2995 2800 50  0001 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019C274
+P 3100 2900
+F 0 "R?" V 2996 2900 50  0001 C CNN
+F 1 "150" V 2995 2900 50  0001 C CNN
+F 2 "" H 3100 2900 50  0001 C CNN
+F 3 "~" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6019C34E
+P 3100 3000
+F 0 "R?" V 2996 3000 50  0001 C CNN
+F 1 "150" V 2995 3000 50  0001 C CNN
+F 2 "" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    3100 3000
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

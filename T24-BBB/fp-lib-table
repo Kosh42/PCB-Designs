@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Conn)(type KiCad)(uri C:/Users/kosh4/Desktop/PB_16-master/BBB_16/libraries/Conn/conn_screw)(options "")(descr ""))
+  (lib (name BeagleBone-Black-Cape)(type KiCad)(uri "C:/Users/kosh4/Documents/Tim BBB KiCAD/BeagleBone-Black-Cape.pretty")(options "")(descr "")(disabled))
+  (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "C:/Users/kosh4/Documents/Tim BBB KiCAD/BeagleBone-Black-Cape/Socket_BeagleBone_Black.pretty")(options "")(descr "")(disabled))
+  (lib (name 3544again)(type KiCad)(uri "C:/Users/kosh4/Documents/Tim BBB KiCAD/3544again.pretty")(options "")(descr ""))
+  (lib (name "Tim BBB KiCAD")(type KiCad)(uri "C:/Users/kosh4/Documents/Tim BBB KiCAD.pretty")(options "")(descr ""))
+)
