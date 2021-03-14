@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 6
 Title "T24"
 Date "2021-03-14"
-Rev "0.7a"
+Rev "0.7b"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -21,7 +21,7 @@ AR Path="/602C8731/603920E9" Ref="J?"  Part="1"
 AR Path="/60383D1E/603920E9" Ref="J41"  Part="1" 
 F 0 "J41" H 1818 1567 50  0000 C CNN
 F 1 "DMX1" H 1818 1476 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01604HBWC_1x04_P5.08mm_Horizontal" H 1900 1250 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical" H 1900 1250 50  0001 C CNN
 F 3 "~" H 1900 1250 50  0001 C CNN
 	1    1900 1250
 	-1   0    0    -1  

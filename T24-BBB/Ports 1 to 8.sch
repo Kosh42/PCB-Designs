@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 6
 Title "T24"
 Date "2021-03-14"
-Rev "0.7a"
+Rev "0.7b"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -250,7 +250,7 @@ U 1 1 6019CF2E
 P 3750 950
 F 0 "J1" V 3714 762 50  0000 R CNN
 F 1 "Port 1" V 3623 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 3750 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 3750 950 50  0001 C CNN
 F 3 "~" H 3750 950 50  0001 C CNN
 	1    3750 950 
 	0    -1   -1   0   
@@ -274,7 +274,7 @@ U 1 1 601A403B
 P 4400 950
 F 0 "J2" V 4364 762 50  0000 R CNN
 F 1 "Port 2" V 4273 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 4400 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 4400 950 50  0001 C CNN
 F 3 "~" H 4400 950 50  0001 C CNN
 	1    4400 950 
 	0    -1   -1   0   
@@ -309,7 +309,7 @@ U 1 1 601A9947
 P 5050 950
 F 0 "J3" V 5014 762 50  0000 R CNN
 F 1 "Port 3" V 4923 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 5050 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 5050 950 50  0001 C CNN
 F 3 "~" H 5050 950 50  0001 C CNN
 	1    5050 950 
 	0    -1   -1   0   
@@ -344,7 +344,7 @@ U 1 1 601AAA50
 P 5750 950
 F 0 "J4" V 5714 762 50  0000 R CNN
 F 1 "Port 4" V 5623 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 5750 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 5750 950 50  0001 C CNN
 F 3 "~" H 5750 950 50  0001 C CNN
 	1    5750 950 
 	0    -1   -1   0   
@@ -379,7 +379,7 @@ U 1 1 601AB525
 P 6450 950
 F 0 "J5" V 6414 762 50  0000 R CNN
 F 1 "Port 5" V 6323 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 6450 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 6450 950 50  0001 C CNN
 F 3 "~" H 6450 950 50  0001 C CNN
 	1    6450 950 
 	0    -1   -1   0   
@@ -414,7 +414,7 @@ U 1 1 601AC0B0
 P 7150 950
 F 0 "J6" V 7114 762 50  0000 R CNN
 F 1 "Port 6" V 7023 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 7150 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7150 950 50  0001 C CNN
 F 3 "~" H 7150 950 50  0001 C CNN
 	1    7150 950 
 	0    -1   -1   0   
@@ -449,7 +449,7 @@ U 1 1 601AC7F5
 P 7900 950
 F 0 "J7" V 7864 762 50  0000 R CNN
 F 1 "Port 7" V 7773 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 7900 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7900 950 50  0001 C CNN
 F 3 "~" H 7900 950 50  0001 C CNN
 	1    7900 950 
 	0    -1   -1   0   
@@ -484,7 +484,7 @@ U 1 1 601AD0D2
 P 8600 950
 F 0 "J8" V 8564 762 50  0000 R CNN
 F 1 "Port 8" V 8473 762 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 8600 950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 8600 950 50  0001 C CNN
 F 3 "~" H 8600 950 50  0001 C CNN
 	1    8600 950 
 	0    -1   -1   0   
@@ -520,10 +520,10 @@ L Device:R_Small R59
 U 1 1 60454A7C
 P 8950 1550
 F 0 "R59" H 9009 1596 50  0000 L CNN
-F 1 "2.2k" H 9009 1505 50  0000 L CNN
+F 1 "4.7k" H 9009 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 8950 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8950 1550 50  0001 C CNN
-F 4 "C17520" H 8950 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 8950 1550 50  0001 C CNN "Description"
 	1    8950 1550
 	1    0    0    -1  
 $EndComp
@@ -557,10 +557,10 @@ L Device:R_Small R58
 U 1 1 60456989
 P 8250 1550
 F 0 "R58" H 8309 1596 50  0000 L CNN
-F 1 "2.2k" H 8309 1505 50  0000 L CNN
+F 1 "4.7k" H 8309 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 8250 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8250 1550 50  0001 C CNN
-F 4 "C17520" H 8250 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 8250 1550 50  0001 C CNN "Description"
 	1    8250 1550
 	1    0    0    -1  
 $EndComp
@@ -594,10 +594,10 @@ L Device:R_Small R57
 U 1 1 6045719F
 P 7500 1550
 F 0 "R57" H 7559 1596 50  0000 L CNN
-F 1 "2.2k" H 7559 1505 50  0000 L CNN
+F 1 "4.7k" H 7559 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 7500 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 7500 1550 50  0001 C CNN
-F 4 "C17520" H 7500 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 7500 1550 50  0001 C CNN "Description"
 	1    7500 1550
 	1    0    0    -1  
 $EndComp
@@ -631,10 +631,10 @@ L Device:R_Small R56
 U 1 1 60457FF1
 P 6800 1550
 F 0 "R56" H 6859 1596 50  0000 L CNN
-F 1 "2.2k" H 6859 1505 50  0000 L CNN
+F 1 "4.7k" H 6859 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 6800 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6800 1550 50  0001 C CNN
-F 4 "C17520" H 6800 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 6800 1550 50  0001 C CNN "Description"
 	1    6800 1550
 	1    0    0    -1  
 $EndComp
@@ -668,10 +668,10 @@ L Device:R_Small R55
 U 1 1 604588C6
 P 6100 1550
 F 0 "R55" H 6159 1596 50  0000 L CNN
-F 1 "2.2k" H 6159 1505 50  0000 L CNN
+F 1 "4.7k" H 6159 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 6100 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6100 1550 50  0001 C CNN
-F 4 "C17520" H 6100 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 6100 1550 50  0001 C CNN "Description"
 	1    6100 1550
 	1    0    0    -1  
 $EndComp
@@ -705,10 +705,10 @@ L Device:R_Small R54
 U 1 1 60459105
 P 5400 1550
 F 0 "R54" H 5459 1596 50  0000 L CNN
-F 1 "2.2k" H 5459 1505 50  0000 L CNN
+F 1 "4.7k" H 5459 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 5400 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5400 1550 50  0001 C CNN
-F 4 "C17520" H 5400 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 5400 1550 50  0001 C CNN "Description"
 	1    5400 1550
 	1    0    0    -1  
 $EndComp
@@ -742,10 +742,10 @@ L Device:R_Small R53
 U 1 1 60459B05
 P 4750 1550
 F 0 "R53" H 4809 1596 50  0000 L CNN
-F 1 "2.2k" H 4809 1505 50  0000 L CNN
+F 1 "4.7k" H 4809 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 4750 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 4750 1550 50  0001 C CNN
-F 4 "C17520" H 4750 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 4750 1550 50  0001 C CNN "Description"
 	1    4750 1550
 	1    0    0    -1  
 $EndComp
@@ -779,10 +779,10 @@ L Device:R_Small R52
 U 1 1 6045A57D
 P 4100 1550
 F 0 "R52" H 4159 1596 50  0000 L CNN
-F 1 "2.2k" H 4159 1505 50  0000 L CNN
+F 1 "4.7k" H 4159 1505 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 4100 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 4100 1550 50  0001 C CNN
-F 4 "C17520" H 4100 1550 50  0001 C CNN "Description"
+F 4 "C17673" H 4100 1550 50  0001 C CNN "Description"
 	1    4100 1550
 	1    0    0    -1  
 $EndComp

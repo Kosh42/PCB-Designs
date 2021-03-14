@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 6
 Title "T24"
 Date "2021-03-14"
-Rev "0.7a"
+Rev "0.7b"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -277,7 +277,7 @@ AR Path="/600DC02A/602077E6" Ref="J?"  Part="1"
 AR Path="/600DC29A/602077E6" Ref="J17"  Part="1" 
 F 0 "J17" V 3464 812 50  0000 R CNN
 F 1 "Port 17" V 3373 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 3500 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 3500 1000 50  0001 C CNN
 F 3 "~" H 3500 1000 50  0001 C CNN
 	1    3500 1000
 	0    -1   -1   0   
@@ -305,7 +305,7 @@ AR Path="/600DC02A/602077F3" Ref="J?"  Part="1"
 AR Path="/600DC29A/602077F3" Ref="J18"  Part="1" 
 F 0 "J18" V 4114 812 50  0000 R CNN
 F 1 "Port 18" V 4023 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 4150 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 4150 1000 50  0001 C CNN
 F 3 "~" H 4150 1000 50  0001 C CNN
 	1    4150 1000
 	0    -1   -1   0   
@@ -350,7 +350,7 @@ AR Path="/600DC02A/60207808" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207808" Ref="J19"  Part="1" 
 F 0 "J19" V 4764 812 50  0000 R CNN
 F 1 "Port 19" V 4673 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 4800 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 4800 1000 50  0001 C CNN
 F 3 "~" H 4800 1000 50  0001 C CNN
 	1    4800 1000
 	0    -1   -1   0   
@@ -391,7 +391,7 @@ AR Path="/600DC02A/6020781B" Ref="J?"  Part="1"
 AR Path="/600DC29A/6020781B" Ref="J20"  Part="1" 
 F 0 "J20" V 5464 812 50  0000 R CNN
 F 1 "Port 20" V 5373 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 5500 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 5500 1000 50  0001 C CNN
 F 3 "~" H 5500 1000 50  0001 C CNN
 	1    5500 1000
 	0    -1   -1   0   
@@ -432,7 +432,7 @@ AR Path="/600DC02A/6020782E" Ref="J?"  Part="1"
 AR Path="/600DC29A/6020782E" Ref="J21"  Part="1" 
 F 0 "J21" V 6164 812 50  0000 R CNN
 F 1 "Port 21" V 6073 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 6200 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 6200 1000 50  0001 C CNN
 F 3 "~" H 6200 1000 50  0001 C CNN
 	1    6200 1000
 	0    -1   -1   0   
@@ -473,7 +473,7 @@ AR Path="/600DC02A/60207841" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207841" Ref="J22"  Part="1" 
 F 0 "J22" V 6864 812 50  0000 R CNN
 F 1 "Port 22" V 6773 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 6900 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 6900 1000 50  0001 C CNN
 F 3 "~" H 6900 1000 50  0001 C CNN
 	1    6900 1000
 	0    -1   -1   0   
@@ -514,7 +514,7 @@ AR Path="/600DC02A/60207854" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207854" Ref="J23"  Part="1" 
 F 0 "J23" V 7614 812 50  0000 R CNN
 F 1 "Port 23" V 7523 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 7650 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7650 1000 50  0001 C CNN
 F 3 "~" H 7650 1000 50  0001 C CNN
 	1    7650 1000
 	0    -1   -1   0   
@@ -555,7 +555,7 @@ AR Path="/600DC02A/60207867" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207867" Ref="J24"  Part="1" 
 F 0 "J24" V 8314 812 50  0000 R CNN
 F 1 "Port 24" V 8223 812 50  0000 R CNN
-F 2 "3544again:TimPheonix" H 8350 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 8350 1000 50  0001 C CNN
 F 3 "~" H 8350 1000 50  0001 C CNN
 	1    8350 1000
 	0    -1   -1   0   
@@ -633,10 +633,10 @@ P 8700 1600
 AR Path="/600DC02A/604689BA" Ref="R?"  Part="1" 
 AR Path="/600DC29A/604689BA" Ref="R75"  Part="1" 
 F 0 "R75" H 8759 1646 50  0000 L CNN
-F 1 "2.2k" H 8759 1555 50  0000 L CNN
+F 1 "4.7k" H 8759 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 8700 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8700 1600 50  0001 C CNN
-F 4 "C17520" H 8700 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 8700 1600 50  0001 C CNN "Description"
 	1    8700 1600
 	1    0    0    -1  
 $EndComp
@@ -676,10 +676,10 @@ P 8000 1600
 AR Path="/600DC02A/604692BB" Ref="R?"  Part="1" 
 AR Path="/600DC29A/604692BB" Ref="R74"  Part="1" 
 F 0 "R74" H 8059 1646 50  0000 L CNN
-F 1 "2.2k" H 8059 1555 50  0000 L CNN
+F 1 "4.7k" H 8059 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 8000 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8000 1600 50  0001 C CNN
-F 4 "C17520" H 8000 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 8000 1600 50  0001 C CNN "Description"
 	1    8000 1600
 	1    0    0    -1  
 $EndComp
@@ -719,10 +719,10 @@ P 7250 1600
 AR Path="/600DC02A/60469B21" Ref="R?"  Part="1" 
 AR Path="/600DC29A/60469B21" Ref="R73"  Part="1" 
 F 0 "R73" H 7309 1646 50  0000 L CNN
-F 1 "2.2k" H 7309 1555 50  0000 L CNN
+F 1 "4.7k" H 7309 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 7250 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 7250 1600 50  0001 C CNN
-F 4 "C17520" H 7250 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 7250 1600 50  0001 C CNN "Description"
 	1    7250 1600
 	1    0    0    -1  
 $EndComp
@@ -762,10 +762,10 @@ P 6550 1600
 AR Path="/600DC02A/6046A193" Ref="R?"  Part="1" 
 AR Path="/600DC29A/6046A193" Ref="R72"  Part="1" 
 F 0 "R72" H 6609 1646 50  0000 L CNN
-F 1 "2.2k" H 6609 1555 50  0000 L CNN
+F 1 "4.7k" H 6609 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 6550 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6550 1600 50  0001 C CNN
-F 4 "C17520" H 6550 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 6550 1600 50  0001 C CNN "Description"
 	1    6550 1600
 	1    0    0    -1  
 $EndComp
@@ -805,10 +805,10 @@ P 5850 1600
 AR Path="/600DC02A/6046A7B8" Ref="R?"  Part="1" 
 AR Path="/600DC29A/6046A7B8" Ref="R71"  Part="1" 
 F 0 "R71" H 5909 1646 50  0000 L CNN
-F 1 "2.2k" H 5909 1555 50  0000 L CNN
+F 1 "4.7k" H 5909 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 5850 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5850 1600 50  0001 C CNN
-F 4 "C17520" H 5850 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 5850 1600 50  0001 C CNN "Description"
 	1    5850 1600
 	1    0    0    -1  
 $EndComp
@@ -848,10 +848,10 @@ P 5150 1600
 AR Path="/600DC02A/6046B0C7" Ref="R?"  Part="1" 
 AR Path="/600DC29A/6046B0C7" Ref="R70"  Part="1" 
 F 0 "R70" H 5209 1646 50  0000 L CNN
-F 1 "2.2k" H 5209 1555 50  0000 L CNN
+F 1 "4.7k" H 5209 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 5150 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5150 1600 50  0001 C CNN
-F 4 "C17520" H 5150 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 5150 1600 50  0001 C CNN "Description"
 	1    5150 1600
 	1    0    0    -1  
 $EndComp
@@ -891,10 +891,10 @@ P 4500 1600
 AR Path="/600DC02A/6046BB97" Ref="R?"  Part="1" 
 AR Path="/600DC29A/6046BB97" Ref="R69"  Part="1" 
 F 0 "R69" H 4559 1646 50  0000 L CNN
-F 1 "2.2k" H 4559 1555 50  0000 L CNN
+F 1 "4.7k" H 4559 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 4500 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 4500 1600 50  0001 C CNN
-F 4 "C17520" H 4500 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 4500 1600 50  0001 C CNN "Description"
 	1    4500 1600
 	1    0    0    -1  
 $EndComp
@@ -934,10 +934,10 @@ P 3850 1600
 AR Path="/600DC02A/6046C71F" Ref="R?"  Part="1" 
 AR Path="/600DC29A/6046C71F" Ref="R68"  Part="1" 
 F 0 "R68" H 3909 1646 50  0000 L CNN
-F 1 "2.2k" H 3909 1555 50  0000 L CNN
+F 1 "4.7k" H 3909 1555 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 3850 1600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 3850 1600 50  0001 C CNN
-F 4 "C17520" H 3850 1600 50  0001 C CNN "Description"
+F 4 "C17673" H 3850 1600 50  0001 C CNN "Description"
 	1    3850 1600
 	1    0    0    -1  
 $EndComp

@@ -1,0 +1,106 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\kosh4\Documents\GitHub\PCB-Designs\T24-BBB\T24-BBB.sch</h1>
+    <p>14/03/2021 16:44:37</p>
+    <p>Eeschema (5.1.9)-1</p>
+    <p><b>Component Count:</b>206</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4, C5, C6, C7, C8, C9, C17</td><td>10</td><td>0.1uF</td><td>Device:C_Small</td><td>3544again:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>V1 LED</td><td>Device:LED</td><td>3544again:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D2</td><td>1</td><td>V2 LED</td><td>Device:LED</td><td>3544again:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D3</td><td>1</td><td>V3 LED</td><td>Device:LED</td><td>3544again:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D4</td><td>1</td><td>5V LED</td><td>Device:LED</td><td>3544again:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D5, D6, D7, D33</td><td>4</td><td>SB5100</td><td>Device:D_Schottky</td><td>Diode_THT:D_DO-201AD_P12.70mm_Horizontal</td><td>Schottky diode</td><td></td></tr>
+    <tr><td>D8</td><td>1</td><td>Zenner 5.1</td><td>Device:D_Zener</td><td>Diode_THT:D_5W_P10.16mm_Horizontal</td><td>Zener diode</td><td></td></tr>
+    <tr><td>D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32</td><td>24</td><td>0603</td><td>Device:LED</td><td>3544again:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>P1</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F2</td><td>1</td><td>P2</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F3</td><td>1</td><td>P3</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F4</td><td>1</td><td>P4</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F5</td><td>1</td><td>P5</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F6</td><td>1</td><td>P6</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F7</td><td>1</td><td>P7</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F8</td><td>1</td><td>P8</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F9</td><td>1</td><td>P9</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F10</td><td>1</td><td>P10</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F11</td><td>1</td><td>P11</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F12</td><td>1</td><td>P12</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F13</td><td>1</td><td>P13</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F14</td><td>1</td><td>P14</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F15</td><td>1</td><td>P15</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F16</td><td>1</td><td>P16</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F17</td><td>1</td><td>P17</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F18</td><td>1</td><td>P18</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F19</td><td>1</td><td>P19</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F20</td><td>1</td><td>P20</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F21</td><td>1</td><td>P21</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F22</td><td>1</td><td>P22</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F23</td><td>1</td><td>P23</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F24</td><td>1</td><td>P24</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F28</td><td>1</td><td>3A Max</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>F29</td><td>1</td><td>DMX1</td><td>Device:Fuse</td><td>3544again:3544-2</td><td>Fuse</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4, H5, H6</td><td>6</td><td>MountingHole</td><td>Mechanical:MountingHole</td><td>MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom</td><td>Mounting Hole without connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Port 1</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Port 2</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>Port 3</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>Port 4</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>Port 5</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>Port 6</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7</td><td>1</td><td>Port 7</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>Port 8</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>Port 9</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J10</td><td>1</td><td>Port 10</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>Port 11</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Port 12</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J13</td><td>1</td><td>Port 13</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>Port 14</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J15</td><td>1</td><td>Port 15</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J16</td><td>1</td><td>Port 16</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>Port 17</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J18</td><td>1</td><td>Port 18</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J19</td><td>1</td><td>Port 19</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J20</td><td>1</td><td>Port 20</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J21</td><td>1</td><td>Port 21</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J22</td><td>1</td><td>Port 22</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J23</td><td>1</td><td>Port 23</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J24</td><td>1</td><td>Port 24</td><td>Connector_Generic:Conn_01x03</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J25</td><td>1</td><td>9-16 In</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J26</td><td>1</td><td>1-8 In</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J27</td><td>1</td><td>17-24 In</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J28</td><td>1</td><td>5V In</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J29</td><td>1</td><td>OLED</td><td>Connector:Conn_01x04_Female</td><td>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J30</td><td>1</td><td>5V Select</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J31</td><td>1</td><td>VIN2_V</td><td>Connector:Conn_01x02_Male</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J32</td><td>1</td><td>VIN3_V</td><td>Connector:Conn_01x02_Male</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J33</td><td>1</td><td>VIN1_V</td><td>Connector:Conn_01x02_Male</td><td>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J34</td><td>1</td><td>25-28</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J35</td><td>1</td><td>29-32</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J36</td><td>1</td><td>33-36</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J37</td><td>1</td><td>37-40</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J38</td><td>1</td><td>41-44</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J40</td><td>1</td><td>DMX2</td><td>Connector:RJ45</td><td>Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical</td><td>RJ connector, 8P8C (8 positions 8 connected)</td><td></td></tr>
+    <tr><td>J41</td><td>1</td><td>DMX1</td><td>Connector:Screw_Terminal_01x04</td><td>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical</td><td>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J44</td><td>1</td><td>GPIO</td><td>Connector:Conn_01x04_Male</td><td>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24</td><td>24</td><td>33</td><td>Device:R_Small</td><td>3544again:R_0805_2012Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R25, R26, R27, R28, R29, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R88</td><td>30</td><td>4.7k</td><td>Device:R_Small</td><td>3544again:R_0805_2012Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51</td><td>22</td><td>120</td><td>Device:R_Small</td><td>3544again:R_0805_2012Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>Enter BTN</td><td>Switch:SW_SPST</td><td>Button_Switch_THT:SW_PUSH_6mm</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
+    <tr><td>SW3</td><td>1</td><td>Down BTN</td><td>Switch:SW_SPST</td><td>Button_Switch_THT:SW_PUSH_6mm</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
+    <tr><td>U1, U9, U17</td><td>3</td><td>74HC245D</td><td>SN74HCT245PW:SN74HCT245PW</td><td>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>AT24C256C</td><td>Memory_EEPROM:CAT24C256</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8</td><td></td></tr>
+    <tr><td>U3, U4, U5, U6, U7</td><td>5</td><td>AM26LS31CDR</td><td>AM26CD31PW:AM26C31IPW</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>UA9638CD</td><td>Interface_LineDriver:UA9638CP</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>Dual high-speed differential line driver, DIP-8</td><td></td></tr>
+    <tr><td>U10</td><td>1</td><td>Buck</td><td>Converter_DCDC:OKI-78SR-5_1.5-W36-C</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical</td><td></td></tr>
+    <tr><td>U11</td><td>1</td><td>BEAGLEBONEBLACK</td><td>BBB:BEAGLEBONEBLACK</td><td>BEAGLEBONEBLACK:MODULE_BEAGLEBONEBLACK</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 6
 Title "T24"
 Date "2021-03-14"
-Rev "0.7a"
+Rev "0.7b"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -257,10 +257,10 @@ L Device:R_Small R25
 U 1 1 6010D978
 P 2400 1250
 F 0 "R25" H 2459 1296 50  0000 L CNN
-F 1 "2.2k" H 2459 1205 50  0000 L CNN
+F 1 "4.7k" H 2459 1205 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 2400 1250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 1250 50  0001 C CNN
-F 4 "C17520" H 2400 1250 50  0001 C CNN "Description"
+F 4 "C17673" H 2400 1250 50  0001 C CNN "Description"
 	1    2400 1250
 	1    0    0    -1  
 $EndComp
@@ -269,10 +269,10 @@ L Device:R_Small R26
 U 1 1 6010E76E
 P 2400 1950
 F 0 "R26" H 2459 1996 50  0000 L CNN
-F 1 "2.2k" H 2459 1905 50  0000 L CNN
+F 1 "4.7k" H 2459 1905 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 2400 1950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 1950 50  0001 C CNN
-F 4 "C17520" H 2400 1950 50  0001 C CNN "Description"
+F 4 "C17673" H 2400 1950 50  0001 C CNN "Description"
 	1    2400 1950
 	1    0    0    -1  
 $EndComp
@@ -426,10 +426,10 @@ L Device:R_Small R28
 U 1 1 6010E99B
 P 2400 3950
 F 0 "R28" H 2459 3996 50  0000 L CNN
-F 1 "2.2k" H 2459 3905 50  0000 L CNN
+F 1 "4.7k" H 2459 3905 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 2400 3950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 3950 50  0001 C CNN
-F 4 "C17520" H 2400 3950 50  0001 C CNN "Description"
+F 4 "C17673" H 2400 3950 50  0001 C CNN "Description"
 	1    2400 3950
 	1    0    0    -1  
 $EndComp
@@ -508,10 +508,10 @@ L Device:R_Small R27
 U 1 1 6014A77A
 P 2400 2950
 F 0 "R27" H 2459 2996 50  0000 L CNN
-F 1 "2.2k" H 2459 2905 50  0000 L CNN
+F 1 "4.7k" H 2459 2905 50  0000 L CNN
 F 2 "3544again:R_0805_2012Metric" H 2400 2950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 2950 50  0001 C CNN
-F 4 "C17520" H 2400 2950 50  0001 C CNN "Description"
+F 4 "C17673" H 2400 2950 50  0001 C CNN "Description"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
@@ -1054,8 +1054,8 @@ U 1 1 602D9575
 P 4750 3450
 F 0 "U10" H 4750 3692 50  0000 C CNN
 F 1 "Buck" H 4750 3601 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 4800 3200 50  0001 L CIN
-F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 4750 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3200 50  0001 L CIN
+F 3 "" H 4750 3450 50  0001 C CNN
 	1    4750 3450
 	1    0    0    -1  
 $EndComp
