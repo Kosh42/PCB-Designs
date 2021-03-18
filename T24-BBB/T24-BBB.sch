@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "T24"
-Date "2021-03-15"
-Rev "0.7c"
+Date "2021-03-14"
+Rev "0.7b"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -139,7 +139,7 @@ F 3 "~" H 1850 1850 50  0001 C CNN
 	1    1850 1850
 	1    0    0    1   
 $EndComp
-Text GLabel 3550 1150 3    50   Input ~ 0
+Text GLabel 750  750  0    50   Input ~ 0
 VIN1
 Text GLabel 750  1750 0    50   Input ~ 0
 VIN2
@@ -231,13 +231,13 @@ VIN2
 $Comp
 L Device:LED D1
 U 1 1 60107B8A
-P 2400 1200
-F 0 "D1" V 2439 1082 50  0000 R CNN
-F 1 "V1 LED" V 2348 1082 50  0000 R CNN
-F 2 "3544again:LED_0603_1608Metric" H 2400 1200 50  0001 C CNN
-F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2400 1200 50  0001 C CNN
-F 4 "C72043" H 2400 1200 50  0001 C CNN "Description"
-	1    2400 1200
+P 2400 1000
+F 0 "D1" V 2439 882 50  0000 R CNN
+F 1 "V1 LED" V 2348 882 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 2400 1000 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2400 1000 50  0001 C CNN
+F 4 "C72043" H 2400 1000 50  0001 C CNN "Description"
+	1    2400 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -255,13 +255,13 @@ $EndComp
 $Comp
 L Device:R_Small R25
 U 1 1 6010D978
-P 2400 950
-F 0 "R25" H 2459 996 50  0000 L CNN
-F 1 "4.7k" H 2459 905 50  0000 L CNN
-F 2 "3544again:R_0805_2012Metric" H 2400 950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 950 50  0001 C CNN
-F 4 "C17673" H 2400 950 50  0001 C CNN "Description"
-	1    2400 950 
+P 2400 1250
+F 0 "R25" H 2459 1296 50  0000 L CNN
+F 1 "4.7k" H 2459 1205 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 2400 1250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 1250 50  0001 C CNN
+F 4 "C17673" H 2400 1250 50  0001 C CNN "Description"
+	1    2400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1021,13 +1021,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J28
 U 1 1 601E7A32
-P 1700 3850
-F 0 "J28" H 1780 3842 50  0000 L CNN
-F 1 "5V In" H 1780 3751 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1700 3850 50  0001 C CNN
-F 3 "~" H 1700 3850 50  0001 C CNN
-	1    1700 3850
-	1    0    0    -1  
+P 1700 3950
+F 0 "J28" H 1780 3942 50  0000 L CNN
+F 1 "5V In" H 1780 3851 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1700 3950 50  0001 C CNN
+F 3 "~" H 1700 3950 50  0001 C CNN
+	1    1700 3950
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J30
@@ -1040,25 +1040,38 @@ F 3 "~" H 4750 4100 50  0001 C CNN
 	1    4750 4100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 4200 0    50   Input ~ 0
-V5_In
 Text GLabel 4550 4100 0    50   Input ~ 0
+V5_In
+Text GLabel 4550 4200 0    50   Input ~ 0
 V5
-Text GLabel 1500 3850 1    50   Input ~ 0
+Text GLabel 4550 4000 0    50   Input ~ 0
 Buck
-Text GLabel 5500 3850 0    50   Input ~ 0
+Text GLabel 4450 3450 0    50   Input ~ 0
 Buck
+$Comp
+L Converter_DCDC:OKI-78SR-5_1.5-W36-C U10
+U 1 1 602D9575
+P 4750 3450
+F 0 "U10" H 4750 3692 50  0000 C CNN
+F 1 "Buck" H 4750 3601 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3200 50  0001 L CIN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:GND #PWR056
 U 1 1 602DB4D0
-P 6300 4450
-F 0 "#PWR056" H 6300 4200 50  0001 C CNN
-F 1 "GND" H 6305 4277 50  0000 C CNN
-F 2 "" H 6300 4450 50  0001 C CNN
-F 3 "" H 6300 4450 50  0001 C CNN
-	1    6300 4450
+P 4750 3700
+F 0 "#PWR056" H 4750 3450 50  0001 C CNN
+F 1 "GND" H 4755 3527 50  0000 C CNN
+F 2 "" H 4750 3700 50  0001 C CNN
+F 3 "" H 4750 3700 50  0001 C CNN
+	1    4750 3700
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 3450 2    50   Input ~ 0
+V5
 NoConn ~ 8350 1100
 NoConn ~ 8350 4300
 NoConn ~ 8350 4200
@@ -1068,106 +1081,4 @@ NoConn ~ 8350 4600
 NoConn ~ 8350 4700
 NoConn ~ 8350 4800
 NoConn ~ 8350 4900
-$Comp
-L Device:C_Small C10
-U 1 1 604FC20E
-P 5500 3950
-F 0 "C10" H 5592 3996 50  0000 L CNN
-F 1 "100uF" H 5592 3905 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5500 3950 50  0001 C CNN
-F 3 "~" H 5500 3950 50  0001 C CNN
-	1    5500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 604FCA7B
-P 7300 4150
-F 0 "C11" H 7392 4196 50  0000 L CNN
-F 1 "1000uF" H 7392 4105 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7300 4150 50  0001 C CNN
-F 3 "~" H 7300 4150 50  0001 C CNN
-	1    7300 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky_Small D34
-U 1 1 604FEDC3
-P 6800 4150
-F 0 "D34" V 6754 4220 50  0000 L CNN
-F 1 "SS34" V 6845 4220 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" V 6800 4150 50  0001 C CNN
-F 3 "~" V 6800 4150 50  0001 C CNN
-F 4 "C8678" H 6800 4150 50  0001 C CNN "Description"
-	1    6800 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Small L1
-U 1 1 604FFEFE
-P 6900 4050
-F 0 "L1" V 6719 4050 50  0000 C CNN
-F 1 "100uH" V 6810 4050 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D7.0mm_P3.00mm" H 6900 4050 50  0001 C CNN
-F 3 "~" H 6900 4050 50  0001 C CNN
-	1    6900 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Regulator_Switching:LM2576S-5 U10
-U 1 1 605011A5
-P 6300 3950
-F 0 "U10" H 6300 4317 50  0000 C CNN
-F 1 "LM2576S-5" H 6300 4226 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6300 3700 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 6300 3950 50  0001 C CNN
-	1    6300 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 6800 4050
-Wire Wire Line
-	5500 3850 5800 3850
-Wire Wire Line
-	5500 4050 5500 4250
-Wire Wire Line
-	5500 4250 5800 4250
-Wire Wire Line
-	5800 4050 5800 4250
-Connection ~ 5800 4250
-Wire Wire Line
-	5800 4250 6300 4250
-Wire Wire Line
-	7300 4250 6800 4250
-Wire Wire Line
-	6800 4250 6300 4250
-Connection ~ 6800 4250
-Connection ~ 6300 4250
-Wire Wire Line
-	6300 4250 6300 4450
-Wire Wire Line
-	7000 4050 7300 4050
-Wire Wire Line
-	6800 3850 7300 3850
-Wire Wire Line
-	7300 3850 7300 4050
-Connection ~ 7300 4050
-Text GLabel 7300 4050 2    50   Input ~ 0
-BuckOut
-Text GLabel 4550 4000 0    50   Input ~ 0
-BuckOut
-$Comp
-L Device:Fuse F25
-U 1 1 6059E857
-P 3550 1000
-F 0 "F25" H 3610 1046 50  0000 L CNN
-F 1 "30A Max" H 3610 955 50  0000 L CNN
-F 2 "3544again:3544-2" V 3480 1000 50  0001 C CNN
-F 3 "~" H 3550 1000 50  0001 C CNN
-	1    3550 1000
-	1    0    0    -1  
-$EndComp
-Text GLabel 3550 850  1    50   Input ~ 0
-V1
-Text GLabel 750  750  0    50   Input ~ 0
-V1
 $EndSCHEMATC
