@@ -996,6 +996,18 @@ F 3 "" H 2950 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:D_Schottky D33
+U 1 1 601327B1
+P 2950 4000
+F 0 "D33" V 2904 4080 50  0000 L CNN
+F 1 "SB5100" V 2995 4080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 2950 4000 50  0001 C CNN
+F 3 "~" H 2950 4000 50  0001 C CNN
+F 4 "" H 2950 4000 50  0001 C CNN "Description"
+	1    2950 4000
+	0    1    1    0   
+$EndComp
+$Comp
 L power:+5V #PWR044
 U 1 1 6013325A
 P 2950 3850
@@ -1034,17 +1046,17 @@ Text GLabel 4550 4200 0    50   Input ~ 0
 V5
 Text GLabel 4550 4000 0    50   Input ~ 0
 Buck
-Text GLabel 4450 3400 0    50   Input ~ 0
+Text GLabel 4450 3450 0    50   Input ~ 0
 Buck
 $Comp
 L Converter_DCDC:OKI-78SR-5_1.5-W36-C U10
 U 1 1 602D9575
-P 4750 3400
-F 0 "U10" H 4750 3642 50  0000 C CNN
-F 1 "Buck" H 4750 3551 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3150 50  0001 L CIN
-F 3 "" H 4750 3400 50  0001 C CNN
-	1    4750 3400
+P 4750 3450
+F 0 "U10" H 4750 3692 50  0000 C CNN
+F 1 "Buck" H 4750 3601 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3200 50  0001 L CIN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4750 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1058,7 +1070,7 @@ F 3 "" H 4750 3700 50  0001 C CNN
 	1    4750 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 3400 2    50   Input ~ 0
+Text GLabel 5050 3450 2    50   Input ~ 0
 V5
 NoConn ~ 8350 1100
 NoConn ~ 8350 4300
@@ -1069,16 +1081,4 @@ NoConn ~ 8350 4600
 NoConn ~ 8350 4700
 NoConn ~ 8350 4800
 NoConn ~ 8350 4900
-$Comp
-L Device:D_Schottky D33
-U 1 1 601327B1
-P 2950 4000
-F 0 "D33" V 2904 4080 50  0000 L CNN
-F 1 "SB5100" V 2995 4080 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 2950 4000 50  0001 C CNN
-F 3 "~" H 2950 4000 50  0001 C CNN
-F 4 "" H 2950 4000 50  0001 C CNN "Description"
-	1    2950 4000
-	0    1    1    0   
-$EndComp
 $EndSCHEMATC
