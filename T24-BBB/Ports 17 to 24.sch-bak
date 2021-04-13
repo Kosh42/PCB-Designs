@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "T24"
-Date "2021-03-18"
-Rev "0.7d"
+Date "2021-04-13"
+Rev "0.7e"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -277,7 +277,7 @@ AR Path="/600DC02A/602077E6" Ref="J?"  Part="1"
 AR Path="/600DC29A/602077E6" Ref="J17"  Part="1" 
 F 0 "J17" V 3464 812 50  0000 R CNN
 F 1 "Port 17" V 3373 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 3500 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 3500 1000 50  0001 C CNN
 F 3 "~" H 3500 1000 50  0001 C CNN
 	1    3500 1000
 	0    -1   -1   0   
@@ -305,7 +305,7 @@ AR Path="/600DC02A/602077F3" Ref="J?"  Part="1"
 AR Path="/600DC29A/602077F3" Ref="J18"  Part="1" 
 F 0 "J18" V 4114 812 50  0000 R CNN
 F 1 "Port 18" V 4023 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 4150 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 4150 1000 50  0001 C CNN
 F 3 "~" H 4150 1000 50  0001 C CNN
 	1    4150 1000
 	0    -1   -1   0   
@@ -350,7 +350,7 @@ AR Path="/600DC02A/60207808" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207808" Ref="J19"  Part="1" 
 F 0 "J19" V 4764 812 50  0000 R CNN
 F 1 "Port 19" V 4673 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 4800 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 4800 1000 50  0001 C CNN
 F 3 "~" H 4800 1000 50  0001 C CNN
 	1    4800 1000
 	0    -1   -1   0   
@@ -391,7 +391,7 @@ AR Path="/600DC02A/6020781B" Ref="J?"  Part="1"
 AR Path="/600DC29A/6020781B" Ref="J20"  Part="1" 
 F 0 "J20" V 5464 812 50  0000 R CNN
 F 1 "Port 20" V 5373 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 5500 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 5500 1000 50  0001 C CNN
 F 3 "~" H 5500 1000 50  0001 C CNN
 	1    5500 1000
 	0    -1   -1   0   
@@ -432,7 +432,7 @@ AR Path="/600DC02A/6020782E" Ref="J?"  Part="1"
 AR Path="/600DC29A/6020782E" Ref="J21"  Part="1" 
 F 0 "J21" V 6164 812 50  0000 R CNN
 F 1 "Port 21" V 6073 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 6200 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 6200 1000 50  0001 C CNN
 F 3 "~" H 6200 1000 50  0001 C CNN
 	1    6200 1000
 	0    -1   -1   0   
@@ -473,7 +473,7 @@ AR Path="/600DC02A/60207841" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207841" Ref="J22"  Part="1" 
 F 0 "J22" V 6864 812 50  0000 R CNN
 F 1 "Port 22" V 6773 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 6900 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 6900 1000 50  0001 C CNN
 F 3 "~" H 6900 1000 50  0001 C CNN
 	1    6900 1000
 	0    -1   -1   0   
@@ -514,7 +514,7 @@ AR Path="/600DC02A/60207854" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207854" Ref="J23"  Part="1" 
 F 0 "J23" V 7614 812 50  0000 R CNN
 F 1 "Port 23" V 7523 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 7650 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 7650 1000 50  0001 C CNN
 F 3 "~" H 7650 1000 50  0001 C CNN
 	1    7650 1000
 	0    -1   -1   0   
@@ -555,7 +555,7 @@ AR Path="/600DC02A/60207867" Ref="J?"  Part="1"
 AR Path="/600DC29A/60207867" Ref="J24"  Part="1" 
 F 0 "J24" V 8314 812 50  0000 R CNN
 F 1 "Port 24" V 8223 812 50  0000 R CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical" H 8350 1000 50  0001 C CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 8350 1000 50  0001 C CNN
 F 3 "~" H 8350 1000 50  0001 C CNN
 	1    8350 1000
 	0    -1   -1   0   
