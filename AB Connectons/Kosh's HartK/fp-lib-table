@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Kosh's HartK")(type KiCad)(uri "${KIPRJMOD}/Kosh's HartK.pretty")(options "")(descr ""))
+)
