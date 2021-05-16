@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "T24"
-Date "2021-04-13"
-Rev "0.7e"
+Title "Mirage"
+Date "2021-05-01"
+Rev "1.0"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -249,7 +249,7 @@ L Connector_Generic:Conn_01x03 J1
 U 1 1 6019CF2E
 P 3750 950
 F 0 "J1" V 3714 762 50  0000 R CNN
-F 1 "Port 1" V 3623 762 50  0000 R CNN
+F 1 "G  D  V" V 3623 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 3750 950 50  0001 C CNN
 F 3 "~" H 3750 950 50  0001 C CNN
 	1    3750 950 
@@ -273,7 +273,7 @@ L Connector_Generic:Conn_01x03 J2
 U 1 1 601A403B
 P 4400 950
 F 0 "J2" V 4364 762 50  0000 R CNN
-F 1 "Port 2" V 4273 762 50  0000 R CNN
+F 1 "G  D  V" V 4273 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 4400 950 50  0001 C CNN
 F 3 "~" H 4400 950 50  0001 C CNN
 	1    4400 950 
@@ -308,7 +308,7 @@ L Connector_Generic:Conn_01x03 J3
 U 1 1 601A9947
 P 5050 950
 F 0 "J3" V 5014 762 50  0000 R CNN
-F 1 "Port 3" V 4923 762 50  0000 R CNN
+F 1 "G  D  V" V 4923 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 5050 950 50  0001 C CNN
 F 3 "~" H 5050 950 50  0001 C CNN
 	1    5050 950 
@@ -343,7 +343,7 @@ L Connector_Generic:Conn_01x03 J4
 U 1 1 601AAA50
 P 5750 950
 F 0 "J4" V 5714 762 50  0000 R CNN
-F 1 "Port 4" V 5623 762 50  0000 R CNN
+F 1 "G  D  V" V 5623 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 5750 950 50  0001 C CNN
 F 3 "~" H 5750 950 50  0001 C CNN
 	1    5750 950 
@@ -378,7 +378,7 @@ L Connector_Generic:Conn_01x03 J5
 U 1 1 601AB525
 P 6450 950
 F 0 "J5" V 6414 762 50  0000 R CNN
-F 1 "Port 5" V 6323 762 50  0000 R CNN
+F 1 "G  D  V" V 6323 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 6450 950 50  0001 C CNN
 F 3 "~" H 6450 950 50  0001 C CNN
 	1    6450 950 
@@ -413,7 +413,7 @@ L Connector_Generic:Conn_01x03 J6
 U 1 1 601AC0B0
 P 7150 950
 F 0 "J6" V 7114 762 50  0000 R CNN
-F 1 "Port 6" V 7023 762 50  0000 R CNN
+F 1 "G  D  V" V 7023 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 7150 950 50  0001 C CNN
 F 3 "~" H 7150 950 50  0001 C CNN
 	1    7150 950 
@@ -448,7 +448,7 @@ L Connector_Generic:Conn_01x03 J7
 U 1 1 601AC7F5
 P 7900 950
 F 0 "J7" V 7864 762 50  0000 R CNN
-F 1 "Port 7" V 7773 762 50  0000 R CNN
+F 1 "G  D  V" V 7773 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 7900 950 50  0001 C CNN
 F 3 "~" H 7900 950 50  0001 C CNN
 	1    7900 950 
@@ -483,7 +483,7 @@ L Connector_Generic:Conn_01x03 J8
 U 1 1 601AD0D2
 P 8600 950
 F 0 "J8" V 8564 762 50  0000 R CNN
-F 1 "Port 8" V 8473 762 50  0000 R CNN
+F 1 "G  D  V" V 8473 762 50  0000 R CNN
 F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 8600 950 50  0001 C CNN
 F 3 "~" H 8600 950 50  0001 C CNN
 	1    8600 950 

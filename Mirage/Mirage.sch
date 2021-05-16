@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "T24"
-Date "2021-04-13"
-Rev "0.7e"
+Title "Mirage"
+Date "2021-05-01"
+Rev "1.0"
 Comp "Lights On Windermere Avenue"
 Comment1 ""
 Comment2 ""
@@ -115,17 +115,6 @@ Text GLabel 8350 5200 0    50   Input ~ 0
 GPIO1
 Text GLabel 10750 3200 2    50   Input ~ 0
 GPIO2
-$Comp
-L Connector:Screw_Terminal_01x02 J26
-U 1 1 600E4B71
-P 1950 750
-F 0 "J26" H 2030 742 50  0000 L CNN
-F 1 "1-8 In" H 2030 651 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1950 750 50  0001 C CNN
-F 3 "~" H 1950 750 50  0001 C CNN
-	1    1950 750 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J25
 U 1 1 600E5475
@@ -675,13 +664,13 @@ $EndSheet
 $Comp
 L Connector:Conn_01x02_Male J33
 U 1 1 602DD954
-P 950 1050
-F 0 "J33" V 900 1050 50  0000 R CNN
-F 1 "VIN1_V" V 800 1100 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 950 1050 50  0001 C CNN
-F 3 "~" H 950 1050 50  0001 C CNN
-	1    950  1050
-	0    -1   -1   0   
+P 1050 1050
+F 0 "J33" V 1000 1050 50  0000 R CNN
+F 1 "VIN1_V" V 900 1100 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1050 1050 50  0001 C CNN
+F 3 "~" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	750  750  950  750 
@@ -1133,4 +1122,15 @@ $EndComp
 Text GLabel 3450 3150 3    50   Input ~ 0
 V3
 Connection ~ 1750 850 
+$Comp
+L Connector:Screw_Terminal_01x02 J26
+U 1 1 600E4B71
+P 1950 850
+F 0 "J26" H 2030 842 50  0000 L CNN
+F 1 "1-8 In" H 2030 751 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1950 850 50  0001 C CNN
+F 3 "~" H 1950 850 50  0001 C CNN
+	1    1950 850 
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

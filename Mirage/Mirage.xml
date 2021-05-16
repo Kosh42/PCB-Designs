@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\kosh4\Documents\GitHub\PCB-Designs\T24-BBB\T24-BBB.sch</source>
-    <date>13/04/2021 20:22:59</date>
+    <source>C:\Users\kosh4\Documents\GitHub\PCB-Designs\Mirage\Mirage.sch</source>
+    <date>01/05/2021 22:37:55</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
-        <source>T24-BBB.sch</source>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
+        <source>Mirage.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -19,10 +19,10 @@
     </sheet>
     <sheet number="2" name="/Ports 1 to 8/" tstamps="/600DC02A/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
         <source>Ports 1 to 8.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -32,10 +32,10 @@
     </sheet>
     <sheet number="3" name="/Ports 9 to 16/" tstamps="/602A383B/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
         <source>Ports 9 to 16.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -45,10 +45,10 @@
     </sheet>
     <sheet number="4" name="/Ports 17 to 24/" tstamps="/600DC29A/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
         <source>Ports 17 to 24.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -58,10 +58,10 @@
     </sheet>
     <sheet number="5" name="/Diff/" tstamps="/602C8731/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
         <source>Diff.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -71,10 +71,10 @@
     </sheet>
     <sheet number="6" name="/DMX/" tstamps="/60383D1E/">
       <title_block>
-        <title>T24</title>
+        <title>Mirage</title>
         <company>Lights On Windermere Avenue</company>
-        <rev>0.7e</rev>
-        <date>2021-04-13</date>
+        <rev>1.0</rev>
+        <date>2021-05-01</date>
         <source>DMX.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -571,7 +571,7 @@
       <tstamp>6019F25B</tstamp>
     </comp>
     <comp ref="J1">
-      <value>Port 1</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -587,7 +587,7 @@
       <tstamp>601A4048</tstamp>
     </comp>
     <comp ref="J2">
-      <value>Port 2</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -603,7 +603,7 @@
       <tstamp>601A9941</tstamp>
     </comp>
     <comp ref="J3">
-      <value>Port 3</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -619,7 +619,7 @@
       <tstamp>601AAA4A</tstamp>
     </comp>
     <comp ref="J4">
-      <value>Port 4</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -635,7 +635,7 @@
       <tstamp>601AB51F</tstamp>
     </comp>
     <comp ref="J5">
-      <value>Port 5</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -651,7 +651,7 @@
       <tstamp>601AC0AA</tstamp>
     </comp>
     <comp ref="J6">
-      <value>Port 6</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -667,7 +667,7 @@
       <tstamp>601AC7EF</tstamp>
     </comp>
     <comp ref="J7">
-      <value>Port 7</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -683,7 +683,7 @@
       <tstamp>601AD0CC</tstamp>
     </comp>
     <comp ref="J8">
-      <value>Port 8</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -985,7 +985,7 @@
       <tstamp>602C1296</tstamp>
     </comp>
     <comp ref="J9">
-      <value>Port 9</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1001,7 +1001,7 @@
       <tstamp>602C12AA</tstamp>
     </comp>
     <comp ref="J10">
-      <value>Port 10</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1017,7 +1017,7 @@
       <tstamp>602C12BF</tstamp>
     </comp>
     <comp ref="J11">
-      <value>Port 11</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1033,7 +1033,7 @@
       <tstamp>602C12D2</tstamp>
     </comp>
     <comp ref="J12">
-      <value>Port 12</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1049,7 +1049,7 @@
       <tstamp>602C12E5</tstamp>
     </comp>
     <comp ref="J13">
-      <value>Port 13</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1065,7 +1065,7 @@
       <tstamp>602C12F8</tstamp>
     </comp>
     <comp ref="J14">
-      <value>Port 14</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1081,7 +1081,7 @@
       <tstamp>602C130B</tstamp>
     </comp>
     <comp ref="J15">
-      <value>Port 15</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1097,7 +1097,7 @@
       <tstamp>602C131E</tstamp>
     </comp>
     <comp ref="J16">
-      <value>Port 16</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1391,7 +1391,7 @@
       <tstamp>602077CB</tstamp>
     </comp>
     <comp ref="J17">
-      <value>Port 17</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1407,7 +1407,7 @@
       <tstamp>602077ED</tstamp>
     </comp>
     <comp ref="J18">
-      <value>Port 18</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1423,7 +1423,7 @@
       <tstamp>60207802</tstamp>
     </comp>
     <comp ref="J19">
-      <value>Port 19</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1439,7 +1439,7 @@
       <tstamp>60207815</tstamp>
     </comp>
     <comp ref="J20">
-      <value>Port 20</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1455,7 +1455,7 @@
       <tstamp>60207828</tstamp>
     </comp>
     <comp ref="J21">
-      <value>Port 21</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1471,7 +1471,7 @@
       <tstamp>6020783B</tstamp>
     </comp>
     <comp ref="J22">
-      <value>Port 22</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1487,7 +1487,7 @@
       <tstamp>6020784E</tstamp>
     </comp>
     <comp ref="J23">
-      <value>Port 23</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -1503,7 +1503,7 @@
       <tstamp>60207861</tstamp>
     </comp>
     <comp ref="J24">
-      <value>Port 24</value>
+      <value>G  D  V</value>
       <footprint>PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -2647,7 +2647,7 @@
   </libparts>
   <libraries>
     <library logical="AM26CD31PW">
-      <uri>C:\Users\kosh4\Documents\GitHub\PCB-Designs\T24-BBB/libraries/AM26CD31PW.lib</uri>
+      <uri>C:\Users\kosh4\Documents\GitHub\PCB-Designs\Mirage/libraries/AM26CD31PW.lib</uri>
     </library>
     <library logical="BBB">
       <uri>C:/Users/kosh4/Documents/Tim BBB KiCAD/BEAGLEBONEBLACK/BEAGLEBONEBLACK.lib</uri>

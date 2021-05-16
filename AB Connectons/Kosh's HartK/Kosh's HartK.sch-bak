@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Kosh's AB Connection PCB"
+Date "2021-05-01"
+Rev "0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -93,13 +93,13 @@ $EndComp
 $Comp
 L power:+24V #PWR0104
 U 1 1 608635C3
-P 2750 2200
-F 0 "#PWR0104" H 2750 2050 50  0001 C CNN
-F 1 "+24V" V 2765 2328 50  0000 L CNN
-F 2 "" H 2750 2200 50  0001 C CNN
-F 3 "" H 2750 2200 50  0001 C CNN
-	1    2750 2200
-	0    -1   -1   0   
+P 3250 1700
+F 0 "#PWR0104" H 3250 1550 50  0001 C CNN
+F 1 "+24V" V 3265 1828 50  0000 L CNN
+F 2 "" H 3250 1700 50  0001 C CNN
+F 3 "" H 3250 1700 50  0001 C CNN
+	1    3250 1700
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+24V #PWR0105
@@ -164,9 +164,9 @@ F 3 "" H 1350 2550 50  0001 C CNN
 	1    1350 2550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3250 2000 2    50   Input ~ 0
+Text GLabel 3250 2200 2    50   Input ~ 0
 TH1
-Text GLabel 3250 2100 2    50   Input ~ 0
+Text GLabel 2750 2100 0    50   Input ~ 0
 Heat_GND
 $Comp
 L power:GNDA #PWR0111
@@ -189,24 +189,24 @@ Text GLabel 2800 2900 0    50   Input ~ 0
 ChT
 Text GLabel 3250 2300 2    50   Input ~ 0
 ChT
-Text GLabel 3250 1700 2    50   Input ~ 0
+Text GLabel 2750 1700 0    50   Input ~ 0
 HE_Fan_GND
-Text GLabel 3250 2200 2    50   Input ~ 0
+Text GLabel 3250 2100 2    50   Input ~ 0
 X_Stop
 $Comp
 L power:GNDA #PWR0112
 U 1 1 6086A991
-P 2750 1700
-F 0 "#PWR0112" H 2750 1450 50  0001 C CNN
-F 1 "GNDA" V 2755 1572 50  0000 R CNN
-F 2 "" H 2750 1700 50  0001 C CNN
-F 3 "" H 2750 1700 50  0001 C CNN
-	1    2750 1700
+P 2750 2200
+F 0 "#PWR0112" H 2750 1950 50  0001 C CNN
+F 1 "GNDA" V 2755 2072 50  0000 R CNN
+F 2 "" H 2750 2200 50  0001 C CNN
+F 3 "" H 2750 2200 50  0001 C CNN
+	1    2750 2200
 	0    1    1    0   
 $EndComp
 Text GLabel 2750 2300 0    50   Input ~ 0
 ABL_MCU
-Text GLabel 2750 2100 0    50   Input ~ 0
+Text GLabel 3250 2000 2    50   Input ~ 0
 PC_Fan_GND
 Text GLabel 2750 2000 0    50   Input ~ 0
 Step_1B
