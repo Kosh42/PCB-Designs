@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "pin": "1-0038-3",
+      "mode": "gpio_pu",
+      "edge": "falling",
+      "type": "Up",
+      "forcePolling": true,
+      "chip": "",
+      "actions": [
+        {
+          "action": "Up",
+          "line": ""
+        }
+      ]
+    },
+    {
+      "pin": "1-0038-2",
+      "mode": "gpio_pu",
+      "edge": "falling",
+      "type": "Enter",
+      "forcePolling": true
+    },
+    {
+      "pin": "1-0038-1",
+      "mode": "gpio_pu",
+      "edge": "falling",
+      "type": "Test/Down",
+      "forcePolling": true
+    },
+    {
+      "pin": "1-0038-4",
+      "mode": "gpio_pu",
+      "edge": "falling",
+      "type": "Back",
+      "forcePolling": true
+    }
+  ]
+}

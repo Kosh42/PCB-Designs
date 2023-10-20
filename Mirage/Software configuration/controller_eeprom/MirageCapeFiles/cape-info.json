@@ -1,0 +1,67 @@
+{
+	"defaultSettings" : 
+	{
+		"FetchVendorLogos" : "1",
+		"showAllOptions" : "0",
+        "LEDDisplayType" : "7",
+        "piRTC" : "5"
+	},
+	"description" : "The Mirage controller.",
+	"designer" : "Tim M",
+	"disableOutputs" : 
+	[
+		{
+			"file" : "config\/co-pixelStrings.json",
+			"type" : "RPIWS281X"
+		},
+		{
+			"file" : "config\/co-pixelStrings.json",
+			"type" : "spixels"
+		},
+		{
+			"file" : "config\/channeloutputs.json",
+			"subType" : "RGBMatrix",
+			"type" : "LEDPanelMatrix"
+		},
+		{
+			"file" : "config\/co-other.json",
+			"type" : "SPIws2801"
+		}
+	],
+	"id" : "Mirage-v0.1",
+	"name" : "Mirage",
+	"serialNumber" : "0000000000011",
+	"version" : "0.1",
+    "longName": "Mirage Controller",
+    "driver": "DPIPixels",
+    "numSerial": 0,
+    "supportsSmartReceivers" : false,
+    "provides":
+    [
+	    "udp",
+        "strings"
+    ],
+    "vendor" :
+    {
+            "name" : "Lights on Windermere Ave",
+            "url" : "https://somewhere.co.uk/",
+            "landingPage" : "https://somewhere.co.uk",
+            "email" : "info@somewhere.co.uk",
+            "forum" : "http://forum.somewhere.co.uk.co.uk",
+            "image" : "https://somewhere.co.uk/fpp/images/transparent_logo.png"
+    },
+    "modules": [
+            "gpio_pca953x",
+            "rtc-pcf85363",
+            "lm75",
+            "ti-ads1015"
+    ],
+    "i2cDevices": [
+            "pca9554 0x38",
+            "pca9554 0x39",
+            "pcf85363 0x51",
+            "lm75 0x4F",
+            "ads1015 0x4B",
+            "ssd1306 0x3c"
+                   ]
+}

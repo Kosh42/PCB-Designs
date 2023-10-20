@@ -1,0 +1,34 @@
+{
+	"channelOutputs": [
+		{
+			"enabled": 1,
+			"type": "GPIO",
+			"startChannel": 999991,
+			"channelCount": 1,
+			"gpio": 64,
+			"invert": 0,
+			"pwm": 0,
+			"description": "PSU 1"
+		},
+		{
+			"enabled": 1,
+			"type": "GPIO",
+			"startChannel": 999992,
+			"channelCount": 1,
+			"gpio": 63,
+			"invert": 0,
+			"pwm": 0,
+			"description": "PSU 2"
+		},
+		{
+			"enabled": 1,
+			"type": "GPIO",
+			"startChannel": 999993,
+			"channelCount": 1,
+			"gpio": 62,
+			"invert": 0,
+			"pwm": 0,
+			"description": "PSU 3"
+		}
+	]
+}
