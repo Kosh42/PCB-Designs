@@ -1,0 +1,55 @@
+{
+    "name": "DynamicPixels-D24-0-v0.4",
+    "longName": "DynamicPixels Pi Zero 2 D24/0 Controller",
+    "pinoutVersion" : "0.4",
+    "driver": "DPIPixels",
+    "numSerial": 0,
+    "outputs": [
+        {  "pin": "P1-7" },
+        {  "pin": "P1-11" },
+        {  "pin": "P1-13" },
+        {  "pin": "P1-15" },
+        {  "pin": "P1-19" },
+        {  "pin": "P1-21" },
+        {  "pin": "P1-23" },
+        {  "pin": "P1-29" },
+
+        {  "pin": "P1-37" },
+        {  "pin": "P1-35" },
+        {  "pin": "P1-33" },
+        {  "pin": "P1-31" },
+        {  "pin": "P1-40" },
+        {  "pin": "P1-38" },
+        {  "pin": "P1-36" },
+        {  "pin": "P1-32" },
+
+        {  "pin": "P1-26" },
+        {  "pin": "P1-24" },
+        {  "pin": "P1-22" },
+        {  "pin": "P1-18" },
+        {  "pin": "P1-16" },
+        {  "pin": "P1-12" },
+        {  "pin": "P1-10" },
+        {  "pin": "P1-8" }
+    ],
+    "groups": [
+        {
+            "start": 1,
+            "count": 8,
+            "label": "PSU 1 - Ports 1-8"
+        },
+        {
+            "start": 9,
+            "count": 8,
+            "label": "PSU 2 - Ports 9-16"
+        },
+        {
+            "start": 17,
+            "count": 8,
+            "label": "PSU 3 - Ports 17-24"
+                                                    }
+    ],
+	"supportsSmartReceivers" : false,
+    "serial" : [
+    ]
+}

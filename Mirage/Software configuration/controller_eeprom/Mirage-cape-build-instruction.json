@@ -1,0 +1,8 @@
+{
+"capeName": "Mirage",
+"capeVersion": "0.1",
+"capeSerial": "0000000001",
+"location": "any",
+"directory": "/home/fpp/controller_eeprom/MirageCapeFiles",
+"outfile": "Mirage-0000000001-eeprom.bin"
+}

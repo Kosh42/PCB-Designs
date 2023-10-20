@@ -1,0 +1,87 @@
+[
+    {
+        "pin": "1-0038-0",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "TEST",
+        "falling": {
+            "command": "Test Start",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "1000",
+                "RGB Chase",
+                "1-2880",
+                "R-G-B"
+            ]
+        }
+    },
+    {
+        "pin": "1-0038-1",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "DOWN",
+        "falling": {
+            "command": "OLED Menu Controls",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Down"
+            ]
+        }
+    },
+    {
+        "pin": "1-0038-2",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "ENTER",
+        "falling": {
+            "command": "OLED Menu Controls",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Enter"
+            ]
+        }
+    },
+    {
+        "pin": "1-0038-3",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "UP",
+        "falling": {
+            "command": "OLED Menu Controls",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Up"
+            ]
+        }
+    },
+    {
+        "pin": "1-0038-4",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "BACK",
+        "falling": {
+            "command": "OLED Menu Controls",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Back"
+            ]
+        }
+    },
+    {
+        "pin": "1-0038-7",
+        "enabled": true,
+        "mode": "gpio",
+        "desc": "MODE",
+        "falling": {
+            "command": "Test Stop",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": []
+        }
+    }
+]
