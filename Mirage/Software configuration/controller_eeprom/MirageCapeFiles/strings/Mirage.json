@@ -1,55 +1,103 @@
 {
-    "name": "DynamicPixels-D24-0-v0.4",
-    "longName": "DynamicPixels Pi Zero 2 D24/0 Controller",
-    "pinoutVersion" : "0.4",
+    "name": "Mirage",
+    "longName": "Mirage (2 Serial) Controller",
     "driver": "DPIPixels",
-    "numSerial": 0,
-    "outputs": [
-        {  "pin": "P1-7" },
-        {  "pin": "P1-11" },
-        {  "pin": "P1-13" },
-        {  "pin": "P1-15" },
-        {  "pin": "P1-19" },
-        {  "pin": "P1-21" },
-        {  "pin": "P1-23" },
-        {  "pin": "P1-29" },
-
-        {  "pin": "P1-37" },
-        {  "pin": "P1-35" },
-        {  "pin": "P1-33" },
-        {  "pin": "P1-31" },
-        {  "pin": "P1-40" },
-        {  "pin": "P1-38" },
-        {  "pin": "P1-36" },
-        {  "pin": "P1-32" },
-
-        {  "pin": "P1-26" },
-        {  "pin": "P1-24" },
-        {  "pin": "P1-22" },
-        {  "pin": "P1-18" },
-        {  "pin": "P1-16" },
-        {  "pin": "P1-12" },
-        {  "pin": "P1-10" },
-        {  "pin": "P1-8" }
+    "numSerial": 2,
+   "outputs": [
+        {  "pin": "P8-31" },
+        {  "pin": "P8-33" },
+        {  "pin": "P8-35" },
+        {  "pin": "P8-37" },
+        {  "pin": "P8-39" },
+        {  "pin": "P8-41" },
+        {  "pin": "P8-43" },
+        {  "pin": "P8-45" },
+        
+        {  "pin": "P8-32" },
+        {  "pin": "P8-34" },
+        {  "pin": "P8-36" },
+        {  "pin": "P8-38" },
+        {  "pin": "P8-40" },
+        {  "pin": "P8-42" },
+        {  "pin": "P8-44" },
+        {  "pin": "P8-46" },
+        
+        {  "pin": "P8-9" },
+        {  "pin": "P8-8" },
+        {  "pin": "P8-10" },
+        {  "pin": "P8-12" },
+        {  "pin": "P8-14" },
+        {  "pin": "P8-18" },
+        {  "pin": "P8-28" },
+        {  "pin": "P8-30" },
+        
+        {  "pin": "P8-15" },
+        {  "pin": "P8-17" },
+        {  "pin": "P8-19" },
+        {  "pin": "P8-27" },
+        
+        {  "pin": "P8-15" },
+        {  "pin": "P8-17" },
+        {  "pin": "P8-19" },
+        {  "pin": "P8-27" },
+        
+        {  "pin": "P8-29" },
+        {  "pin": "P9-14" },
+        {  "pin": "P9-13" },
+        {  "pin": "P9-11" },
+        
+        {  "pin": "P9-17" },
+        {  "pin": "P9-18" },
+        {  "pin": "P9-22" },
+        {  "pin": "P9-30" },
+        
+        {  "pin": "P9-27" },
+        {  "pin": "P9-29" },
+        {  "pin": "P9-31" },
+        {  "pin": "P9-28" }
     ],
     "groups": [
         {
             "start": 1,
-            "count": 8,
-            "label": "PSU 1 - Ports 1-8"
+            "count": 8
         },
         {
             "start": 9,
-            "count": 8,
-            "label": "PSU 2 - Ports 9-16"
+            "count": 8
         },
         {
             "start": 17,
-            "count": 8,
-            "label": "PSU 3 - Ports 17-24"
-                                                    }
+            "count": 8
+        },
+        {
+            "start": 25,
+            "count": 4,
+            "type": "differential"
+        },
+        {
+            "start": 29,
+            "count": 4,
+            "type": "differential"
+        },
+        {
+            "start": 33,
+            "count": 4,
+            "type": "differential"
+        },
+        {
+            "start": 37,
+            "count": 4,
+            "type": "differential"
+        },
+        {
+            "start": 41,
+            "count": 4,
+            "type": "differential"
+        }
     ],
-	"supportsSmartReceivers" : false,
-    "serial" : [
-    ]
+	"serial": [
+         {  "pin": "P9-24" },
+         {  "pin": "P9-21" }
+	],
+	"supportsSmartReceivers" : false
 }
