@@ -1,0 +1,57 @@
+{
+     "sensorSources": [
+                 {
+                "id": "PSUcurrent_A2D",
+                "type": "iio",
+                "devId": 0,
+                "useBuffers": false
+                 }
+                 ],
+
+ "sensors": [
+
+            {
+              "type": "sensor",
+              "devId": 0,
+              "channel": 1,
+              "sensor": "PSUcurrent_A2D",
+              "scale": 0.0125911282910061570617343020108,
+              "precision": 3,
+              "offset": 3.9375,
+              "label": "PSU1: ",
+              "valueType": "Current",
+              "postfix": "A",
+            },
+            {
+              "type": "sensor",
+              "devId": 0,
+              "channel": 2,
+              "sensor": "PSUcurrent_A2D",
+              "scale": 0.0125911282910061570617343020108,
+              "offset": 3.9375,
+              "label": "PSU2: ",
+              "valueType": "Current",
+              "postfix": "A",
+            },
+            {
+              "type": "sensor",
+              "devId": 0,
+              "channel": 3,
+              "sensor": "PSUcurrent_A2D",
+              "scale": 0.0125911282910061570617343020108,
+              "offset": 3.9375,
+              "label": "PSU3: ",
+              "valueType": "Current",
+              "postfix": "A",
+            },
+            {
+              "label": "D24 Temp: ",
+              "type": "i2c",
+              "address": "0x4f",
+              "driver": "lm75",
+              "path": "/sys/class/i2c-dev/i2c-1/device/1-004f/hwmon/hwmon2/temp1_input",
+              "valueType": "Temperature",
+              "multiplier": 0.001
+            }
+    ]
+}
